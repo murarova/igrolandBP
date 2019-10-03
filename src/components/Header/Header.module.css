@@ -5,20 +5,23 @@ img {
 }
 
 .wrapper {
+  position: fixed;
     width: 100%;
     background-color: #98caeb;
+    z-index: 1000;
 
 }
 
 .header {
+
   display:flex;
   justify-content:space-between;
   align-items: center;
-      margin: 0 auto;
+  margin: 0 auto;
   padding-left: 20px;
   padding-right: 20px;
-  height: 100px;
-  width: 1280px;
+  height: 120px;
+  width: 1000px;
 }
 
 .logo {

@@ -9,9 +9,6 @@ const PlayZone = () => (
       <div className={s.carouselContainer}>
         <Carousel showArrows={true}>
           <div>
-            <img src="assets/play/1.png" alt="foto complex" />
-          </div>
-          <div>
             <img src="assets/play/2.png" alt="foto complex" />
           </div>
           <div>
@@ -25,6 +22,9 @@ const PlayZone = () => (
           </div>
           <div>
             <img src="assets/play/6.png" alt="foto complex" />
+          </div>
+          <div>
+            <img src="assets/play/1.png" alt="foto complex" />
           </div>
         </Carousel>
       </div>

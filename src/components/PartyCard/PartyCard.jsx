@@ -2,35 +2,23 @@ import React from 'react';
 import styles from './partyCard.module.css';
 
 const PartyCard = () => (
-  <>
+  <div className={styles.patyCardWrapperAll}>
     <h2 className={styles.title}>Лучшее предложение на День Рождения!</h2>
     <div className={styles.wrapper}>
-      <div className={styles.container}>
-        <img src="/assets/party-card.png" alt="Party Card" />
+      <div className={styles.imgWrapper}>
+        <img src="/assets/monstr.png" alt="monstr"></img>
       </div>
-      <div className={styles.description}>
-        <p className={styles.desc_prag}>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi blanditiis quidem quam in totam, molestiae
-          perspiciatis doloremque, molestias itaque reiciendis, natus illo a enim sunt sapiente ad facere provident?
-          Nobis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus delectus ab sit eum unde at tenetur
-          nam explicabo fugiat ducimus iusto odio aliquam vitae animi hic ea, perferendis eaque mollitia commodi vel
-          culpa!
+      <div className={styles.partyCardWrapper}>
+        <h3 className={styles.descTitle}>Все игры безлимитно за 200 грн!</h3>
+        <p className={styles.description}>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem libero possimus quasi numquam tempora. Rerum aut
+          consequuntur tempora dolor voluptatem illum esse nesciunt, quidem excepturi, molestiae distinctio quibusdam
+          deserunt fugiat!
         </p>
-        <p className={styles.desc_prag}>
-          Blanditiis soluta ullam praesentium, obcaecati facilis vero dolorem, natus eveniet magnam expedita quam atque,
-          optio sed quibusdam doloremque repudiandae animi? Esse nobis debitis dolore fugiat culpa assumenda aliquam
-          perspiciatis earum beatae nihil aperiam aut dicta, velit ad, cumque ratione nam repellat quisquam similique
-          blanditiis
-        </p>
-        <p className={styles.desc_prag}>
-          Blanditiis soluta ullam praesentium, obcaecati facilis vero dolorem, natus eveniet magnam expedita quam atque,
-          optio sed quibusdam doloremque repudiandae animi? Esse nobis debitis dolore fugiat culpa assumenda aliquam
-          perspiciatis earum beatae nihil aperiam aut dicta, velit ad, cumque ratione nam repellat quisquam similique
-          blanditiis
-        </p>
+        <div className={styles.partyCard}>Party Card</div>
       </div>
     </div>
-  </>
+  </div>
 );
 
 export default PartyCard;

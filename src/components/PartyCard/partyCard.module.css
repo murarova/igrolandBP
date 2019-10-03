@@ -35,29 +35,46 @@ button {
     box-shadow: 0;
 }
 
+.patyCardWrapperAll {
+    height: calc(100vh - 120px);
+}
+
 .wrapper {
   display: flex;
   width: 100%;
+
 }
 
 .title {
 padding: 40px 0;
 }
 
-.container {
+.imgWrapper {
   width: 30%;
 }
 
-.description {
-  width: 70%;
-  padding-left: 5%;
+.partyCardWrapper {
+    width: 60%;
+    margin-left: 10%;
+}
+.partyCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    width: 400px;
+    height: 200px;
+    background-color:rgb(238, 236, 119);
+    border-radius: 20px;
 }
 
-.desc_prag {
+.descTitle {
     padding-bottom: 20px;
 }
 
-.wrapper::after {
-content: "";
-background: src('')
+.description {
+    padding-bottom: 20px;
 }
+

@@ -1,5 +1,7 @@
 .wrapper {
+  height: calc(100vh - 120px);
   width: 100%;
+  margin: 0 auto;
   display: flex;
   justify-content: center;
 }
