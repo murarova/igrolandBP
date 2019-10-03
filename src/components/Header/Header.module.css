@@ -1,0 +1,31 @@
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #98caeb;
+
+}
+
+.header {
+  display:flex;
+  justify-content:space-between;
+  align-items: center;
+      margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 100px;
+  width: 1280px;
+}
+
+.logo {
+width: 200px;
+}
+
+.address {
+  color: white;
+  font-weight: bold;
+}

@@ -1,0 +1,9 @@
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+
+.container {
+  padding-left: 20px;
+  padding-right: 20px;
+}
