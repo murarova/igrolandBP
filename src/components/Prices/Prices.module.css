@@ -1,0 +1,144 @@
+.wrapper {
+    background-color: #98caeb28;
+}
+
+.container {
+  display: flex;
+}
+
+.containerAll {
+    margin: 0 auto;
+    width: 80%;
+    padding: 2em 0;
+}
+
+.title {
+        font-family: 'ProximaSoft';
+  margin: 0;
+  padding-bottom: 1em;
+}
+
+.imgWrapper {
+  width: 40%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+
+}
+
+.menuBtns {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 50%;
+}
+
+.menuBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height:2em;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+box-shadow: 1px 1px 5px #888888;   
+}
+
+.menuBtn:last-child {
+    margin-bottom: 0;
+}
+
+.menuRest {
+    background-color:rgb(147, 231, 101);
+}
+
+.menuPlay {
+  background-color:rgb(248, 102, 102);
+}
+
+.menuShow {
+  background-color:rgb(195, 48, 247);
+}
+
+
+.menuRest:hover, .menuRest:focus  {
+    background-color: rgb(147, 220, 101);
+    outline: none;
+}
+
+.menuRest:active {
+    background-color: rgb(147, 220, 101);
+    outline: none;
+    margin-top: 2px;
+}
+
+.menuPlay:active {
+    background-color: rgb(245, 82, 104);
+    outline: none;
+    margin-top: 2px;
+}
+
+.menuPlay:hover, .menuPlay:focus  {
+    background-color: rgb(245, 82, 104);
+    outline: none;
+}
+
+.menuShow:active {
+    background-color: rgb(173, 28, 226);
+    outline: none;
+    margin-top: 2px;
+}
+
+.menuShow:hover, .menuShow:focus  {
+    background-color: rgb(173, 28, 226);
+    outline: none;
+}
+
+
+@media (min-width: 480px) {
+    .wrapper {
+        font-size: 1.2em;
+    }
+    .menuBtn {
+        height:3em;
+    }
+}
+
+@media (min-width: 768px) {
+    .wrapper {
+        font-size: 1.5em;
+        padding-bottom: 2em;
+    }
+}
+
+@media (min-width: 960px) {
+    .containerAll {
+        width: 70%;
+    }
+    .wrapper {
+        font-size: 1.8em;
+    }
+}
+
+@media (min-width: 1200px) {
+        .containerAll {
+        width: 60%;
+    }
+    .wrapper {
+        font-size: 2em;
+    }
+    .menuBtn {
+        height:4em;
+    }
+}
+
+@media (min-width: 1440px) {
+    .wrapper {
+        font-size: 2.5em;
+    }
+}

@@ -1,20 +1,21 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import windowSize from 'react-window-size';
+import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
-// import Icon from '../Icon/Icon';
+import logo from '../../assets/logo.png';
 
 const Header = () => (
   <div className={styles.wrapper}>
     <header className={styles.header}>
-      <div className={styles.logo}>
-        <img src="/assets/logo.png" alt="logo" />
-      </div>
+      <Link to="/" className={styles.logo}>
+        <img src={logo} alt="logo" />
+      </Link>
       <p className={styles.address}>
-        <p>г.Киев</p>
-        <p>ТРЦ "Скай Молл"</p>
-        <p>пр.Генерала Ватутина 2т</p>
-        <p>тел: 067-239-99-16</p>
+        <span> г.Киев</span>
+        <span>ТРЦ "Скай Молл"</span>
+        <span>пр.Генерала Ватутина 2т</span>
+        <a className={styles.tel} href="tel: +380672399916">
+          тел: 067-239-99-16
+        </a>
       </p>
     </header>
   </div>

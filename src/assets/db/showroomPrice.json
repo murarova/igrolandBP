@@ -1,0 +1,38 @@
+[
+  {
+    "group": "Салаты",
+    "img": "costume.jpg",
+    "alt": "photo of costume",
+    "title": "Красавчик",
+    "duration": "60",
+    "price": "1000"
+  },
+    {
+    "img": "costume.jpg",
+    "alt": "photo of costume",
+    "title": "Красавчик красивый",
+    "duration": "60",
+    "price": "1000"
+  },
+    {
+    "img": "costume.jpg",
+    "alt": "photo of costume",
+    "title": "Красавчик не красивый",
+    "duration": "60",
+    "price": "1000"
+  },
+    {
+    "img": "costume.jpg",
+    "alt": "photo of costume",
+    "title": "Красавчик симпотяга",
+    "duration": "60",
+    "price": "1000"
+  },
+    {
+    "img": "costume.jpg",
+    "alt": "photo of costume",
+    "title": "Красавчик трудяга",
+    "duration": "60",
+    "price": "1000"
+  }
+]

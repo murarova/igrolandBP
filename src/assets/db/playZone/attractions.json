@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Батутна арена",
+    "img": "trampoline-arena.jpg",
+    "rate": "Безлімітно",
+    "price": "160",
+    "package": "96"
+  },
+  {
+    "title": "Дитяча площадка",
+    "img": "children-playground.jpg",
+    "rate": "Безлімітно",
+    "price": "100",
+    "package": "84"
+  },
+  {
+    "title": "Дитяча площадка",
+    "img": "children-playground-2.jpg",
+    "rate": "60 хв",
+    "price": "80",
+    "package": "60"
+  },
+    {
+    "title": "Боулінг",
+    "img": "bowling.jpg",
+    "rate": "1 ігра",
+    "price": "40",
+    "package": "25"
+  }
+ 
+]
