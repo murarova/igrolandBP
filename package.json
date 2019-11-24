@@ -2,6 +2,7 @@
     "name": "igrolandbp",
     "version": "0.1.0",
     "private": true,
+    "homepage": "https://murarova.github.io/igrolandBP",
     "dependencies": {
         "@types/halogen": "^0.2.6",
         "halogen": "^0.2.0",
@@ -25,7 +26,7 @@
         "lint:fix": "eslint src/**/*.js --fix",
         "lint:format": "prettier src/**/*.{js,css,json} --write",
         "predeploy": "npm run build",
-        "deploy": "mv build/index.html build/200.html && surge -p build -d igroland.surge.sh"
+        "deploy": "gh-pages -d build"
     },
     "eslintConfig": {
         "extends": "react-app"
