@@ -1,0 +1,58 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2000;
+}
+
+.modal {
+  position: relative;
+  max-width: 350px;
+  width: 90%;
+  height: calc(100vh - 20%);
+}
+
+.complexModal {
+  composes: modal;
+  max-width: 650px;
+}
+
+.fullscreenButton {
+  position: absolute;
+  top: 0%;
+  right: 0%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font: inherit;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 200ms linear, opacity 200ms linear;
+  z-index: 2;
+}
+
+.fullscreenButton:hover,
+.fullscreenButton:focus {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.fullscreenButton i {
+  font-size: 36px;
+}
+
+@media (min-width: 480px) {
+  .modal {
+    width: 70%;
+  }
+}

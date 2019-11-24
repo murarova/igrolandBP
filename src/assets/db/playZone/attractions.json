@@ -1,31 +1,56 @@
 [
-  {
-    "title": "Батутна арена",
-    "img": "trampoline-arena.jpg",
-    "rate": "Безлімітно",
-    "price": "160",
-    "package": "96"
-  },
-  {
-    "title": "Дитяча площадка",
-    "img": "children-playground.jpg",
-    "rate": "Безлімітно",
-    "price": "100",
-    "package": "84"
-  },
-  {
-    "title": "Дитяча площадка",
-    "img": "children-playground-2.jpg",
-    "rate": "60 хв",
-    "price": "80",
-    "package": "60"
-  },
     {
-    "title": "Боулінг",
-    "img": "bowling.jpg",
-    "rate": "1 ігра",
-    "price": "40",
-    "package": "25"
-  }
- 
+        "title": "Батутна арена",
+        "img": "Батутна арена Київ.jpg",
+        "rate": "Безлімітно",
+        "price": "170",
+        "weekEndPrice": "190",
+        "packages": "14",
+        "weekEndPackages": "16"
+    },
+    {
+        "title": "Дитяча площадка",
+        "img": "Дитячий Майданчик Київ.jpg",
+        "rate": "Безлімітно",
+        "price": "85",
+        "weekEndPrice": "110",
+        "packages": "7",
+        "weekEndPackages": "9"
+    },
+    {
+        "title": "Дитяча площадка",
+        "img": "Дитячий Майданчик Київ.jpg",
+        "rate": "60 хв",
+        "price": "70",
+        "weekEndPrice": "100",
+        "packages": "6",
+        "weekEndPackages": "8"
+    },
+    {
+        "title": "Боулінг",
+        "img": "Боулінг Київ.jpg",
+        "rate": "1 ігра",
+        "price": "50",
+        "weekEndPrice": "50",
+        "packages": "4",
+        "weekEndPackages": "4"
+    },
+    {
+        "title": "Весела карусель",
+        "img": "Весела Карусель Київ.jpg",
+        "rate": "1 ігра",
+        "price": "50",
+        "weekEndPrice": "50",
+        "packages": "4",
+        "weekEndPackages": "4"
+    },
+    {
+        "title": "Вільне падіння",
+        "img": "Вільне Падіння Київ.jpg",
+        "rate": "1 ігра",
+        "price": "60",
+        "weekEndPrice": "60",
+        "packages": "5",
+        "weekEndPackages": "5"
+    }
 ]

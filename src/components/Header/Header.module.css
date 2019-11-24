@@ -3,12 +3,13 @@
   width: 100%;
   background-color: #98caeb;
   z-index: 1000;
-
+  /* box-shadow: 0px 1px 5px 0px rgba(0, 0, 0, 0.2),
+    0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.12); */
 }
 
 .header {
-  display:flex;
-  justify-content:space-between;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
   margin: 0 auto;
   width: 80%;
@@ -19,7 +20,7 @@
   padding: 5px 0;
   cursor: pointer;
   font-size: 1.2em;
-  color: rgb(255,218,0);
+  color: rgb(255, 218, 0);
 }
 
 .logo {
@@ -28,54 +29,51 @@
 }
 
 .address {
-  font-family: 'ProximaSoft';
+  font-family: "ProximaSoft";
   display: flex;
   flex-direction: column;
   color: white;
   font-size: 1.1em;
 }
 
-
-@media(min-width: 480px) {
+@media (min-width: 480px) {
   .logo {
-      width: 30%;
+    width: 30%;
   }
   .address {
-      font-size: 1.3em;
-  }
-}
-
-@media(min-width: 768px) {
-  .address {
-      font-size: 1.4em;
+    font-size: 1.3em;
   }
 }
 
-  @media(min-width: 960px) {
+@media (min-width: 768px) {
   .address {
-      font-size: 1.5em;
+    font-size: 1.4em;
+  }
+}
+
+@media (min-width: 960px) {
+  .address {
+    font-size: 1.5em;
   }
   .header {
     width: 70%;
   }
 }
 
-    @media(min-width: 1200px) {
-
+@media (min-width: 1200px) {
   .address {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
-    .header {
+  .header {
     width: 60%;
   }
 }
 
-   @media(min-width: 1440px) {
-
-    .logo {
-      width: 20%;
-    }
+@media (min-width: 1440px) {
+  .logo {
+    width: 20%;
+  }
   .address {
-      font-size: 1.5em;
+    font-size: 1.5em;
   }
 }

@@ -1,0 +1,20 @@
+[
+    {
+        "title": "Мега-Плей XL",
+        "price": "790",
+        "quantity": "100",
+        "perGame": "7.9"
+    },
+    {
+        "title": "Мега-Плей ",
+        "price": "400",
+        "quantity": "40",
+        "perGame": "10"
+    },
+    {
+        "title": "Адреналин",
+        "price": "290",
+        "quantity": "25",
+        "perGame": "11.9"
+    }
+]
