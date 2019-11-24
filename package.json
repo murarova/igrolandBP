@@ -2,20 +2,20 @@
     "name": "igrolandbp",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://murarova.github.io/igrolandBP",
+    "homepage": "https://murarova.github.io",
     "dependencies": {
+        "@material-ui/core": "^4.7.0",
+        "@material-ui/icons": "^4.5.1",
         "@types/halogen": "^0.2.6",
         "halogen": "^0.2.0",
         "prop-types": "^15.7.2",
-        "react": "^16.8.6",
+        "react": "^16.12.0",
+        "react-awesome-slider": "^2.2.1",
         "react-dom": "^16.8.6",
         "react-router-dom": "^5.0.1",
         "react-scripts": "3.0.1",
-        "react-spinkit": "^3.0.0",
-        "@material-ui/core": "^4.7.0",
-        "@material-ui/icons": "^4.5.1",
-        "react-awesome-slider": "^2.2.1",
-        "react-scroll": "^1.7.14"
+        "react-scroll": "^1.7.14",
+        "react-spinkit": "^3.0.0"
     },
     "scripts": {
         "start": "react-scripts start",
@@ -26,7 +26,7 @@
         "lint:fix": "eslint src/**/*.js --fix",
         "lint:format": "prettier src/**/*.{js,css,json} --write",
         "predeploy": "npm run build",
-        "deploy": "gh-pages -d build"
+        "deploy": "mv build/index.html build/200.html && surge -p build -d igrolandBP.surge.sh"
     },
     "eslintConfig": {
         "extends": "react-app"

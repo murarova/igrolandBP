@@ -8,19 +8,19 @@ import PlayZone from './pages/PlayZone/PlayZone';
 import Ruls from './pages/Ruls/Ruls';
 
 function App() {
-  return (
-    <>
-      <Switch>
-        <Redirect exact path="/" to="/dashboard" />
-        <Route path="/dashboard" component={Dashboard} />
-        <Route path="/showroom" component={Showroom} />
-        <Route path="/party-card" component={PartyCard} />
-        <Route path="/restaurant" component={Restaurant} />
-        <Route path="/play-zone" component={PlayZone} />
-        <Route path="/ruls" component={Ruls} />
-      </Switch>
-    </>
-  );
+    return (
+        <>
+            <Switch>
+                <Redirect exact path="/" to="/dashboard" />
+                <Route path="/dashboard" component={Dashboard} />
+                <Route path="/showroom" component={Showroom} />
+                <Route path="/party-card" component={PartyCard} />
+                <Route path="/restaurant" component={Restaurant} />
+                <Route path="/play-zone" component={PlayZone} />
+                <Route path="/ruls" component={Ruls} />
+            </Switch>
+        </>
+    );
 }
 
 export default App;

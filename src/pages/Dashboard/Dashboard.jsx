@@ -7,15 +7,15 @@ import Foto from '../../components/Foto/Foto';
 import Prices from '../../components/Prices/Prices';
 
 const Dashboard = () => (
-  <div className={styles.wrapper}>
-    <Header />
-    <PartyCard />
-    <Prices />
-    <Foto />
-    <Link to="/ruls" className={styles.rulesBtn}>
-      Правила проведення ДР
-    </Link>
-  </div>
+    <div className={styles.wrapper}>
+        <Header />
+        <PartyCard />
+        <Prices />
+        <Foto />
+        <Link to="/ruls" className={styles.rulesBtn}>
+            Правила проведення ДР
+        </Link>
+    </div>
 );
 
 export default Dashboard;
